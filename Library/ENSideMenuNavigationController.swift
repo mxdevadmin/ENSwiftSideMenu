@@ -47,7 +47,7 @@ public class ENSideMenuNavigationController: UINavigationController, ENSideMenuP
             self.viewControllers = [contentViewController]
             break
         default:
-            if push {
+            if pushView {
                 contentViewController.navigationItem.hidesBackButton = false
                 self.pushViewController(contentViewController, animated: true)
                 
@@ -59,23 +59,6 @@ public class ENSideMenuNavigationController: UINavigationController, ENSideMenuP
         }        
         
     }
-    
-    /*self.sideMenu?.toggleMenu()
-    switch sideMenuAnimationType {
-    case .None:
-    self.viewControllers = [contentViewController]
-    break
-    default:
-    if push == true {
-    contentViewController.navigationItem.hidesBackButton = false
-    self.pushViewController(contentViewController, animated: true)
-    
-    }else{
-    contentViewController.navigationItem.hidesBackButton = true
-    self.setViewControllers([contentViewController], animated: true)
-    }
-    break
-    }*/
     
 
 }
