@@ -2,7 +2,7 @@
 
 A lightweight flyover side menu component for iOS with the ```UIDynamic```'s bouncing animation, ```UIGestures``` and ```UIBlurEffect```. Allows you to use native ```UINavigationController```'s logic to manage view controllers. The component is written in **Swift**.
 
-![](https://dl.dropboxusercontent.com/u/99657845/sideMenu.gif)
+![](https://github.com/evnaz/ENSwiftSideMenu/blob/master/demo.gif)
 
 ## Requirements
 * Xcode 6.3 or higher
@@ -13,7 +13,7 @@ A lightweight flyover side menu component for iOS with the ```UIDynamic```'s bou
 The recommended way for installating `ENSwiftSideMenu` is via the [CocoaPods](http://cocoapods.org/) package manager
 ``` bash
 platform :ios, '8.0'
-pod 'ENSwiftSideMenu', '~> 0.1'
+pod 'ENSwiftSideMenu', '~> 0.1.1'
 ```
 ### Manual Install
 All you need is import `ENSideMenu.swift` and `ENSideMenuNavigationController.swift` to your project folder.
@@ -32,7 +32,7 @@ All you need is import `ENSideMenu.swift` and `ENSideMenuNavigationController.sw
   }
   ```
   
-4. To change content view controller implement next code in your menu view controller:
+4. To change content view controller use next line in your menu view controller:
 
   ```swift
   sideMenuController()?.setContentViewController(destViewController)
