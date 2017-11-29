@@ -18,7 +18,7 @@ import UIKit
 
 @objc public protocol ENSideMenuProtocol {
     var sideMenu : ENSideMenu? { get }
-    func setContentViewController(contentViewController: UIViewController)
+    func setContentViewController(contentViewController: UIViewController ,pushView : Bool)
 }
 
 public enum ENSideMenuAnimation : Int {
