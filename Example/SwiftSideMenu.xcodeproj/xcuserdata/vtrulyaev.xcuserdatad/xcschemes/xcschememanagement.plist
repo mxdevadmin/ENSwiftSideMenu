@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>ObjCExample.xcscheme</key>
+		<key>SwiftSideMenu.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>5C23D7001A6038B40004FF06</key>
+		<key>5C132582198E2A9A00CA49BE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5C23D7191A6038B40004FF06</key>
+		<key>5C132594198E2A9A00CA49BE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
